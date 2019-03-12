@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate_fatfree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "datatables.net-bs4": "^1.10.16",
+    "datatables.net-dt": "^1.10.16",
+    "grunt": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
+  },
+  "description": ""
+}
