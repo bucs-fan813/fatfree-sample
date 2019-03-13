@@ -1,8 +1,6 @@
-build:
-  stage: build
-  script:
-    - sudo yum install curl -y
 test:
   stage: test
   script: 
+  - cd fatfree-sample
+  - ls -lash
   - bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url="${HUB_URL}" --blackduck.hub.username="${HUB_USERNAME}" --blackduck.hub.password="${HUB_PASSWORD}" --detect.policy.check=true
