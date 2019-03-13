@@ -1,4 +1,5 @@
 test:
   stage: test
+    image: alpine:latest
   script:
     - bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url="${HUB_URL}" --blackduck.hub.api.token="${HUB_TOKEN}" --detect.policy.check=true
