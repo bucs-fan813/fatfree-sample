@@ -1,4 +1,4 @@
-image: gitlab/gitlab-runner
+image: docker.io/gitlab/gitlab-runner
 test:
   stage: test
   script:
