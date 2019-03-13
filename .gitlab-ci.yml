@@ -1,3 +1,7 @@
+build:
+  stage: build
+  script:
+    - composer install
 test:
   stage: test
   script: 
