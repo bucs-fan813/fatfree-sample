@@ -1,10 +1,7 @@
 {
     "require": {
         "bcosca/fatfree-core": "^3.6",
-        "league/oauth2-client": "*",
         "mmucklo/krumo": "^0.5.7",
-        "ikkez/f3-schema-builder": "dev-master",
-        "facebook/graph-sdk": "^5.6",
-        "bcosca/fatfree": "^3.6"
+        "ikkez/f3-schema-builder": "dev-master"
     }
 }
