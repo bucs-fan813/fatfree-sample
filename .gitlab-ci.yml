@@ -1,4 +1,4 @@
 test:
   stage: test
   script: 
-  - bash <(curl -s -L https://detect.synopsys.com/detect.sh) --blackduck.hub.url="${HUB_URL}" --blackduck.hub.username="${HUB_USERNAME}" --blackduck.hub.password="${HUB_PASSWORD}" --detect.policy.check=true
+  - bash <(curl -s -L https://detect.synopsys.com/detect.sh) --blackduck.hub.url="${HUB_URL}" --blackduck.hub.username="${HUB_USERNAME}" --blackduck.hub.password="${HUB_PASSWORD}" --blackduck.hub.trust.cert=true --detect.policy.check=true
